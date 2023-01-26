@@ -1,10 +1,12 @@
 import './App.css';
+import UploadForm from './UploadForm';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Test</p>
+        <UploadForm/>
       </header>
     </div>
   );
